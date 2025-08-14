@@ -1,0 +1,23 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[project]
+name = "notebooks"
+version = "0.1.0"
+description = "Notebooks"
+authors = [{name = "gunpi", email = "gunpi@ya.ru"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "networkx",
+    "cayleypy"
+]
+
+[project.urls]
+repository = "https://github.com/gun-pi/notebooks"
+
+[tool.setuptools]
+packages = ["."]
