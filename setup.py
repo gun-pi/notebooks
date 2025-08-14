@@ -3,5 +3,5 @@ from setuptools import setup, find_packages
 setup(
     name="notebooks",
     version="0.1",
-    packages=find_packages(),
+    packages=["cayleypy_upper_triangular_utils"]
 )
